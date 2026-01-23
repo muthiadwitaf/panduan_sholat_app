@@ -176,14 +176,14 @@ class HomeScreen extends StatelessWidget {
                 
                 Padding(
                   padding: const EdgeInsets.all(24.0),
-                  child: Text(
-                    'Mari tingkatkan kualitas ibadah kita setiap hari.',
-                    textAlign: TextAlign.center,
-                    style: AppTextStyles.bodySmall.copyWith(
-                      color: AppColors.textLight,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
+                  // child: Text(
+                  //   'Mari tingkatkan kualitas ibadah kita setiap hari.',
+                  //   textAlign: TextAlign.center,
+                  //   style: AppTextStyles.bodySmall.copyWith(
+                  //     color: AppColors.textLight,
+                  //     fontStyle: FontStyle.italic,
+                  //   ),
+                  // ),
                 ),
               ],
             ),
