@@ -1,0 +1,84 @@
+{
+    "wudhuSteps": [
+        {
+            "stepId": "niat_wudhu",
+            "title": "Niat Wudhu",
+            "arabicText": "نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْأَصْغَرِ فَرْضًا لِلّٰهِ تَعَالَى",
+            "latinText": "Nawaitul wudhû-a liraf‘il ḫadatsil ashghari fardhal lillâhi ta‘âlâ",
+            "translation": "Saya niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala.",
+            "imagePath": "assets/images/sholat/wudhu_01_niat.png"
+        },
+        {
+            "stepId": "cuci_tangan",
+            "title": "Mencuci Dua Telapak Tangan",
+            "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+            "latinText": "Bismillâhir-raḫmânir-raḫîm",
+            "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Mencuci kedua telapak tangan 3 kali hingga pergelangan).",
+            "imagePath": "assets/images/sholat/wudhu_02_tangan.png"
+        },
+        {
+            "stepId": "berkumur",
+            "title": "Berkumur-kumur",
+            "arabicText": "اَللّٰهُمَّ أَسْقِنِيْ مِنْ حَوْضِ نَبِيِّكَ كَأْسًا لَا أَظْمَأُ بَعْدَهُ أَبَدًا",
+            "latinText": "Allâhumma asqinî min ḫaudhi nabiyyika ka’san lâ adzma-u ba‘dahu abadâ",
+            "translation": "Ya Allah, berilah aku minum dari telaga Nabi-Mu dengan gelas yang aku tidak akan haus selamanya. (Berkumur 3 kali).",
+            "imagePath": "assets/images/sholat/wudhu_03_kumur.png"
+        },
+        {
+            "stepId": "bersihkan_hidung",
+            "title": "Membersihkan Lubang Hidung",
+            "arabicText": "اَللّٰهُمَّ أَرِحْنِيْ رَائِحَةَ الْجَنَّةِ",
+            "latinText": "Allâhumma ariḫnî râ-iḫatal jannah",
+            "translation": "Ya Allah, berilah aku mencium bau surga. (Menghirup air ke hidung dan mengeluarkannya 3 kali).",
+            "imagePath": "assets/images/sholat/wudhu_04_hidung.png"
+        },
+        {
+            "stepId": "basuh_wajah",
+            "title": "Membasuh Wajah",
+            "arabicText": "اَللّٰهُمَّ بَيِّضْ وَجْهِيْ يَوْمَ تَبْيَضُّ وُجُوْهٌ وَتَسْوَدُّ وُجُوْهٌ",
+            "latinText": "Allâhumma bayyidh wajhî yauma tabyadh-dhu wujûhun wa taswaddu wujûh",
+            "translation": "Ya Allah, putihkanlah wajahku pada hari memutihnya wajah-wajah dan menghitamnya wajah-wajah. (Membasuh wajah 3 kali secara merata).",
+            "imagePath": "assets/images/sholat/wudhu_05_wajah.png"
+        },
+        {
+            "stepId": "basuh_tangan",
+            "title": "Membasuh Dua Tangan",
+            "arabicText": "اَللّٰهُمَّ أَعْطِنِيْ كِتَابِيْ بِيَمِيْنِيْ وَحَاسِبْنِيْ حِسَابًا يَسِيْرًا",
+            "latinText": "Allâhumma a‘thinî kitâbî biyamînî wa ḫâsibnî ḫisâban yasîrâ",
+            "translation": "Ya Allah, berikanlah kitab catatan amalku di tangan kananku dan hisablah aku dengan hisab yang mudah. (Membasuh tangan kanan lalu kiri hingga siku 3 kali).",
+            "imagePath": "assets/images/sholat/wudhu_06_tangan_siku.png"
+        },
+        {
+            "stepId": "usap_kepala",
+            "title": "Mengusap Kepala",
+            "arabicText": "اَللّٰهُمَّ غَشِّنِيْ بِرَحْمَتِكَ وَأَنْزِلْ عَلَيَّ مِنْ بَرَكَاتِكَ",
+            "latinText": "Allâhumma ghasysyinî biraḫmatika wa anzil ‘alayya min barakâtik",
+            "translation": "Ya Allah, liputilah aku dengan rahmat-Mu dan turunkanlah berkah-berkah-Mu kepadaku. (Mengusap sebagian atau seluruh kepala 3 kali).",
+            "imagePath": "assets/images/sholat/wudhu_07_kepala.png"
+        },
+        {
+            "stepId": "usap_telinga",
+            "title": "Mengusap Dua Telinga",
+            "arabicText": "اَللّٰهُمَّ اجْعَلْنِيْ مِنَ الَّذِيْنَ يَسْتَمِعُوْنَ الْقَوْلَ فَيَتَّبِعُوْنَ أَحْسَنَهُ",
+            "latinText": "Allâhumma-j‘alni minal ladzîna yastami‘ûnal qaula fayattabi‘ûna aḫsanah",
+            "translation": "Ya Allah, jadikanlah aku termasuk orang-orang yang mendengarkan perkataan lalu mengikuti yang terbaik di antaranya. (Mengusap telinga luar dan dalam 3 kali).",
+            "imagePath": "assets/images/sholat/wudhu_08_telinga.png"
+        },
+        {
+            "stepId": "basuh_kaki",
+            "title": "Membasuh Dua Kaki",
+            "arabicText": "اَللّٰهُمَّ ثَبِّتْ قَدَمَيَّ عَلَى الصِّرَاطِ يَوْمَ تَزِلُّ فِيْهِ الْأَقْدَامُ",
+            "latinText": "Allâhumma tsabbit qadamayya ‘alash shirâthi yauma tazillu fîhil aqdâm",
+            "translation": "Ya Allah, tetapkanlah kedua kakiku di atas titian (shirath) pada hari tergelincirnya kaki-kaki. (Membasuh kaki hingga mata kaki, dahulukan kanan, 3 kali).",
+            "imagePath": "assets/images/sholat/wudhu_09_kaki.png"
+        },
+        {
+            "stepId": "doa_setelah_wudhu",
+            "title": "Doa Setelah Wudhu",
+            "arabicText": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ. اَللّٰهُمَّ اجْعَلْنِيْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِيْ مِنَ الْمُتَطَهِّرِيْنَ",
+            "latinText": "Asyhadu an lâ ilâha illallâhu waḫdahû lâ syarîka lahû wa asyhadu anna muḫammadan ‘abduhû wa rasûluh. Allâhumma-j‘alnî minat tawwâbîna waj‘alnî minal mutathahhirîn",
+            "translation": "Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang menyucikan diri.",
+            "imagePath": "assets/images/sholat/wudhu_10_doa.png"
+        }
+    ]
+}

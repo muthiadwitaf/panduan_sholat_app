@@ -1,0 +1,256 @@
+{
+  "sholatList": [
+    {
+      "id": "sholat_subuh",
+      "name": "Sholat Subuh",
+      "category": "wajib",
+      "type": "wajib",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي فَرْضَ الصُّبْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli fardhash shubhi rak'ataini mustaqbilal qiblati adaa-an lillahi ta'ala",
+        "translation": "Aku niat melakukan shalat fardhu Subuh dua rakaat sambil menghadap kiblat saat ini karena Allah ta'ala"
+      },
+      "description": "Sholat wajib 2 rakaat di waktu fajar."
+    },
+    {
+      "id": "sholat_dzuhur",
+      "name": "Sholat Dzuhur",
+      "category": "wajib",
+      "type": "wajib",
+      "rakaatCount": 4,
+      "pattern": "empat_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli fardhazh zhuhri arba'a raka'atin mustaqbilal qiblati adaa-an lillahi ta'ala",
+        "translation": "Aku niat melakukan shalat fardhu Zhuhur empat rakaat sambil menghadap kiblat saat ini karena Allah ta'ala"
+      },
+      "description": "Sholat wajib 4 rakaat di siang hari."
+    },
+    {
+      "id": "sholat_ashar",
+      "name": "Sholat Ashar",
+      "category": "wajib",
+      "type": "wajib",
+      "rakaatCount": 4,
+      "pattern": "empat_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي فَرْضَ الْعَصْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli fardhal 'ashri arba'a raka'atin mustaqbilal qiblati adaa-an lillahi ta'ala",
+        "translation": "Aku niat melakukan shalat fardhu Ashar empat rakaat sambil menghadap kiblat saat ini karena Allah ta'ala"
+      },
+      "description": "Sholat wajib 4 rakaat di sore hari."
+    },
+    {
+      "id": "sholat_maghrib",
+      "name": "Sholat Maghrib",
+      "category": "wajib",
+      "type": "wajib",
+      "rakaatCount": 3,
+      "pattern": "tiga_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي فَرْضَ الْمَغْرِبِ ثَلَاثَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli fardhal maghribi thalatha raka'atin mustaqbilal qiblati adaa-an lillahi ta'ala",
+        "translation": "Aku niat melakukan shalat fardhu Maghrib tiga rakaat sambil menghadap kiblat saat ini karena Allah ta'ala"
+      },
+      "description": "Sholat wajib 3 rakaat di waktu senja."
+    },
+    {
+      "id": "sholat_isya",
+      "name": "Sholat Isya",
+      "category": "wajib",
+      "type": "wajib",
+      "rakaatCount": 4,
+      "pattern": "empat_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي فَرْضَ الْعِشَاءِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli fardhal 'isya-i arba'a raka'atin mustaqbilal qiblati adaa-an lillahi ta'ala",
+        "translation": "Aku niat melakukan shalat fardhu Isya empat rakaat sambil menghadap kiblat saat ini karena Allah ta'ala"
+      },
+      "description": "Sholat wajib 4 rakaat di malam hari."
+    },
+    {
+      "id": "sholat_jumat",
+      "name": "Sholat Jumat",
+      "category": "wajib",
+      "type": "wajib",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي فَرْضَ الْجُمُعَةِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli fardhal jumu'ati rak'ataini mustaqbilal qiblati adaa-an lillahi ta'ala",
+        "translation": "Aku niat melakukan shalat fardhu Jumat dua rakaat sambil menghadap kiblat saat ini karena Allah ta'ala"
+      },
+      "description": "Sholat berjamaah menggantikan Dzuhur di hari Jumat."
+    },
+    {
+      "id": "qobliyah_dzuhur",
+      "name": "Qobliyah Dzuhur",
+      "category": "sunnah_rawatib",
+      "type": "sunnah",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ الظُّهْرِ رَكْعَتَيْنِ قَبْلِيَّةً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatazh zhuhri rak'ataini qabliyyatan lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Dzuhur dua rakaat sebelum Dzuhur karena Allah ta'ala"
+      },
+      "description": "Sholat sunnah sebelum Dzuhur."
+    },
+    {
+      "id": "sholat_dhuha",
+      "name": "Sholat Dhuha",
+      "category": "sunnah_harian",
+      "type": "sunnah",
+      "rakaatCount": null,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ الضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatadh dhuhaa rak'ataini lillaahi ta'ala",
+        "translation": "Aku niat sholat sunnah Dhuha dua rakaat karena Allah ta’ala"
+      },
+      "description": "Sholat sunnah di waktu pagi (dhuha)."
+    },
+    {
+      "id": "sholat_tahajud",
+      "name": "Sholat Tahajud",
+      "category": "sunnah_harian",
+      "type": "sunnah",
+      "rakaatCount": null,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ التَّهَجُّدِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatat tahajjudi rak'ataini lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Tahajud dua rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat sunnah di sepertiga malam."
+    },
+    {
+      "id": "sholat_witir_1",
+      "name": "Sholat Witir (1 Rakaat)",
+      "category": "sunnah_harian",
+      "type": "sunnah",
+      "rakaatCount": 1,
+      "pattern": "satu_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ الْوِتْرِ رَكْعَةً لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatal witri rak'atan lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Witir satu rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat sunnah penutup (1 rakaat)."
+    },
+    {
+      "id": "sholat_witir_3",
+      "name": "Sholat Witir (3 Rakaat)",
+      "category": "sunnah_harian",
+      "type": "sunnah",
+      "rakaatCount": 3,
+      "pattern": "witir_tiga_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ الْوِتْرِ ثَلَاثَ رَكَعَاتٍ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatal witri thalatha raka'atin lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Witir tiga rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat sunnah penutup (3 rakaat)."
+    },
+    {
+      "id": "sholat_idul_fitri",
+      "name": "Sholat Idul Fitri",
+      "category": "hari_besar",
+      "type": "khusus",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةً لِعِيدِ الْفِطْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatan li'idil fithri rak'ataini lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Idul Fitri dua rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat hari raya setelah Ramadhan."
+    },
+    {
+      "id": "sholat_idul_adha",
+      "name": "Sholat Idul Adha",
+      "category": "hari_besar",
+      "type": "khusus",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةً لِعِيدِ الْأَضْحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatan li'idil adha rak'ataini lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Idul Adha dua rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat hari raya kurban."
+    },
+    {
+      "id": "sholat_tarawih",
+      "name": "Sholat Tarawih",
+      "category": "hari_besar",
+      "type": "khusus",
+      "rakaatCount": null,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ التَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatat tarawīhi rak‘ataini lillāhi ta‘ālā",
+        "translation": "Aku niat shalat sunnah Tarawih dua rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat sunnah pada malam bulan Ramadhan."
+    },
+    {
+      "id": "sholat_gerhana",
+      "name": "Sholat Gerhana",
+      "category": "hari_besar",
+      "type": "khusus",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ الْخُسُوفِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatal khusuufi rak'ataini lillaahi ta'aalaa",
+        "translation": "Aku niat shalat sunnah gerhana dua rakaat karena Allah ta’ala"
+      },
+      "description": "Sholat saat terjadi matahari atau bulan terhalang."
+    },
+    {
+      "id": "sholat_istisqa",
+      "name": "Sholat Istisqa'",
+      "category": "hari_besar",
+      "type": "khusus",
+      "rakaatCount": 2,
+      "pattern": "dua_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ الِاسْتِسْقَاءِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatal istisqa'i rak'ataini lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Istisqa' dua rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat memohon hujan."
+    },
+    {
+      "id": "sholat_jenazah",
+      "name": "Sholat Jenazah",
+      "category": "khusus",
+      "type": "khusus",
+      "rakaatCount": 0,
+      "pattern": "jenazah",
+      "niat": {
+        "arabicText": "أُصَلِّي عَلَى هَذَا الْمَيِّتِ أَرْبَعَ تَكْبِيرَاتٍ فَرْضَ كِفَايَةِ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli 'ala hadzal mayyiti arba'a takbiratin fardha kifayatin lillahi ta'ala",
+        "translation": "Aku niat menyalati jenazah ini dengan empat takbir fardu kifayah karena Allah ta'ala"
+      },
+      "description": "Sholat untuk menyolatkan jenazah muslim."
+    },
+    {
+      "id": "sholat_tasbih",
+      "name": "Sholat Tasbih",
+      "category": "sunnah_tertentu",
+      "type": "sunnah",
+      "rakaatCount": 4,
+      "pattern": "empat_rakaat",
+      "niat": {
+        "arabicText": "أُصَلِّي سُنَّةَ التَّسْبِيحِ أَرْبَعَ رَكَعَاتٍ لِلَّهِ تَعَالَى",
+        "latinText": "Ushalli sunnatat tasbihi arba'a raka'atih lillahi ta'ala",
+        "translation": "Aku niat shalat sunnah Tasbih empat rakaat karena Allah ta'ala"
+      },
+      "description": "Sholat dengan bacaan tasbih 300 kali."
+    }
+  ]
+}
