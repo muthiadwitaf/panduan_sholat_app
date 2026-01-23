@@ -1,9 +1,17 @@
 E-Sholat Guide
 
-Aplikasi multiplatform (Android, iOS, Desktop) untuk membantu umat Muslim mempelajari tata cara sholat dan doa harian berbasis e-book interaktif.
+E-Sholat Guide adalah aplikasi e-learning panduan sholat dan doa harian berbasis Flutter yang dirancang untuk membantu pengguna mempelajari tata cara ibadah secara mandiri, terstruktur, dan mudah diakses melalui berbagai platform.
+Aplikasi ini dikembangkan sebagai bagian dari penelitian dengan pendekatan Agile Development Method, serta ditujukan sebagai media pembelajaran keagamaan berbasis digital.
+
+
+Tujuan Aplikasi
+- menyediakan panduan sholat yang runtut dan mudah dipahami
+- menyajikan kumpulan doa harian dalam satu aplikasi
+- mendukung pembelajaran ibadah secara mandiri
+- menjadi contoh implementasi e-learning berbasis Flutter
+
 
 Fitur Utama
-
 Panduan Sholat Lengkap
 - 19 langkah sholat dari niat hingga salam (termasuk Sholat Jenazah)
 - Bacaan Arab dengan font Amiri yang indah
