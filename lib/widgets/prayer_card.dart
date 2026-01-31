@@ -3,6 +3,7 @@ import '../models/prayer_step.dart';
 import '../utils/app_colors.dart';
 import '../utils/app_text_styles.dart';
 import 'arabic_text_widget.dart';
+import 'audio_button.dart';
 
 class PrayerCard extends StatelessWidget {
   final PrayerStep step;
@@ -20,42 +21,52 @@ class PrayerCard extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       child: Padding(
         padding: const EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
 
-            Row(
-              children: [
-                if (step.rakaat != null && step.rakaat! > 0)
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: BoxDecoration(
-                      gradient: AppColors.premiumGradient,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Text(
-                      'Rakaat ${step.rakaat}',
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 14,
+              Row(
+                children: [
+                  if (step.rakaat != null && step.rakaat! > 0)
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        gradient: AppColors.premiumGradient,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        'Rakaat ${step.rakaat}',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 14,
+                        ),
                       ),
                     ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      step.title,
+                      style: AppTextStyles.headingMedium,
+                    ),
                   ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Text(
-                    step.title,
-                    style: AppTextStyles.headingMedium,
+                ],
+              ),
+              
+              // Audio Player
+              if (step.audioPath != null && step.audioPath!.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(top: 12),
+                  child: MiniAudioPlayer(
+                    audioPath: step.audioPath,
+                    title: 'Dengarkan Bacaan',
                   ),
                 ),
-              ],
-            ),
-            const Divider(height: 32),
+              
+              const Divider(height: 32),
 
-            Flexible(
-              flex: 0,
-              child: ClipRRect(
+              ClipRRect(
                 borderRadius: BorderRadius.circular(16),
                 child: ConstrainedBox(
                   constraints: const BoxConstraints(maxHeight: 180),
@@ -79,14 +90,16 @@ class PrayerCard extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-            const SizedBox(height: 16),
-            
-            Text('BACAAN ARAB', style: AppTextStyles.label),
-            const SizedBox(height: 8),
-            Expanded(
-              child: Container(
+              const SizedBox(height: 16),
+              
+              Text('BACAAN ARAB', style: AppTextStyles.label),
+              const SizedBox(height: 8),
+              Container(
                 width: double.infinity,
+                constraints: const BoxConstraints(
+                  minHeight: 80,
+                  maxHeight: 200,
+                ),
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
                   color: AppColors.background,
@@ -108,34 +121,30 @@ class PrayerCard extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-            const SizedBox(height: 16),
-            
-            Text('LATIN', style: AppTextStyles.label),
-            const SizedBox(height: 4),
-            Text(
-              step.latinText,
-              style: AppTextStyles.transliteration.copyWith(
-                fontSize: 15,
+              const SizedBox(height: 16),
+              
+              Text('LATIN', style: AppTextStyles.label),
+              const SizedBox(height: 4),
+              Text(
+                step.latinText,
+                style: AppTextStyles.transliteration.copyWith(
+                  fontSize: 15,
+                ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
-              maxLines: 3,
-              overflow: TextOverflow.fade,
-            ),
-            const SizedBox(height: 16),
-            
-            Text('ARTI', style: AppTextStyles.label),
-            const SizedBox(height: 4),
-            Text(
-              step.translation,
-              style: AppTextStyles.translation.copyWith(
-                fontSize: 14,
+              const SizedBox(height: 16),
+              
+              Text('ARTI', style: AppTextStyles.label),
+              const SizedBox(height: 4),
+              Text(
+                step.translation,
+                style: AppTextStyles.translation.copyWith(
+                  fontSize: 14,
+                ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
-              maxLines: 3,
-              overflow: TextOverflow.fade,
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

@@ -7,11 +7,10 @@ class QuizProvider with ChangeNotifier {
   List<QuizQuestion> _allQuestions = [];
   List<QuizQuestion> _currentQuestions = [];
   int _currentQuestionIndex = 0;
-  Map<int, int> _userAnswers = {};
+  final Map<int, int> _userAnswers = {};
   bool _isLoading = false;
   String? _error;
   QuizResult? _lastResult;
-  DateTime? _quizStartTime;
 
   List<QuizQuestion> get currentQuestions => _currentQuestions;
   int get currentQuestionIndex => _currentQuestionIndex;
@@ -58,7 +57,6 @@ class QuizProvider with ChangeNotifier {
     _currentQuestionIndex = 0;
     _userAnswers.clear();
     _lastResult = null;
-    _quizStartTime = DateTime.now();
     notifyListeners();
   }
 
@@ -134,7 +132,6 @@ class QuizProvider with ChangeNotifier {
     _currentQuestionIndex = 0;
     _userAnswers.clear();
     _lastResult = null;
-    _quizStartTime = null;
     notifyListeners();
   }
 }

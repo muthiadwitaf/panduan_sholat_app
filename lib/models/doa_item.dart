@@ -6,6 +6,7 @@ class DoaItem {
   final String transliteration;
   final String translation;
   final String? context;
+  final String? audioPath;
   final bool isFavorite;
 
   DoaItem({
@@ -16,6 +17,7 @@ class DoaItem {
     required this.transliteration,
     required this.translation,
     this.context,
+    this.audioPath,
     this.isFavorite = false,
   });
 
@@ -28,6 +30,7 @@ class DoaItem {
       transliteration: json['transliteration'] as String,
       translation: json['translation'] as String,
       context: json['context'] as String?,
+      audioPath: json['audioPath'] as String?,
       isFavorite: json['isFavorite'] as bool? ?? false,
     );
   }
@@ -41,6 +44,7 @@ class DoaItem {
       'transliteration': transliteration,
       'translation': translation,
       'context': context,
+      'audioPath': audioPath,
       'isFavorite': isFavorite,
     };
   }
@@ -53,6 +57,7 @@ class DoaItem {
     String? transliteration,
     String? translation,
     String? context,
+    String? audioPath,
     bool? isFavorite,
   }) {
     return DoaItem(
@@ -63,6 +68,7 @@ class DoaItem {
       transliteration: transliteration ?? this.transliteration,
       translation: translation ?? this.translation,
       context: context ?? this.context,
+      audioPath: audioPath ?? this.audioPath,
       isFavorite: isFavorite ?? this.isFavorite,
     );
   }

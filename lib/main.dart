@@ -5,6 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'providers/prayer_provider.dart';
 import 'providers/doa_provider.dart';
 import 'providers/quiz_provider.dart';
+import 'providers/audio_provider.dart';
+import 'providers/learning_history_provider.dart';
 import 'screens/home_screen.dart';
 import 'utils/app_colors.dart';
 
@@ -22,6 +24,8 @@ class PanduanSholatApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => PrayerProvider()),
         ChangeNotifierProvider(create: (_) => DoaProvider()),
         ChangeNotifierProvider(create: (_) => QuizProvider()),
+        ChangeNotifierProvider(create: (_) => AudioProvider()),
+        ChangeNotifierProvider(create: (_) => LearningHistoryProvider()),
       ],
       child: MaterialApp(
         title: 'E-Sholat Guide',
@@ -33,7 +37,7 @@ class PanduanSholatApp extends StatelessWidget {
             seedColor: AppColors.primary,
             primary: AppColors.primary,
             secondary: AppColors.accent,
-            background: AppColors.background,
+            surface: AppColors.background,
           ),
           textTheme: GoogleFonts.interTextTheme(
             Theme.of(context).textTheme,

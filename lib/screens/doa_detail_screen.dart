@@ -3,6 +3,7 @@ import '../models/doa_item.dart';
 import '../utils/app_colors.dart';
 import '../utils/app_text_styles.dart';
 import '../widgets/arabic_text_widget.dart';
+import '../widgets/audio_button.dart';
 
 class DoaDetailScreen extends StatelessWidget {
   final DoaItem doa;
@@ -47,7 +48,19 @@ class DoaDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             
+            // Audio Player
+            if (doa.audioPath != null && doa.audioPath!.isNotEmpty)
+              Column(
+                children: [
+                  MiniAudioPlayer(
+                    audioPath: doa.audioPath,
+                    title: 'Dengarkan Audio',
+                  ),
+                  const SizedBox(height: 24),
+                ],
+              ),
             
+            // Arabic Text
             Container(
               padding: const EdgeInsets.all(24),
               decoration: BoxDecoration(

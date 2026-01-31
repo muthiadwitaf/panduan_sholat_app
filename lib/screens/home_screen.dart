@@ -5,6 +5,7 @@ import 'doa_list_screen.dart';
 import 'quiz_screen.dart';
 import 'sholat_list_screen.dart';
 import 'wudhu_guide_screen.dart';
+import 'learning_history_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -109,6 +110,7 @@ class HomeScreen extends StatelessWidget {
                     crossAxisCount: 2,
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
+                    childAspectRatio: 0.95,
                     children: [
                       _MenuCard(
                         icon: Icons.auto_stories,
@@ -166,6 +168,22 @@ class HomeScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                               builder: (context) => const WudhuGuideScreen(),
+                            ),
+                          );
+                        },
+                      ),
+                      _MenuCard(
+                        icon: Icons.history_edu,
+                        title: 'Riwayat\nBelajar',
+                        subtitle: 'Lihat progress',
+                        gradient: const LinearGradient(
+                          colors: [Color(0xFF6B4FBB), Color(0xFF4A2F8C)],
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const LearningHistoryScreen(),
                             ),
                           );
                         },

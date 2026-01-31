@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/prayer_provider.dart';
+import '../providers/learning_history_provider.dart';
 import '../utils/app_colors.dart';
 import '../utils/app_text_styles.dart';
 import '../widgets/prayer_card.dart';
@@ -200,6 +201,15 @@ class _PrayerGuideScreenState extends State<PrayerGuideScreen> {
   }
 
   void _showCompletionDialog(BuildContext context, PrayerProvider provider) {
+    // Save to learning history
+    final historyProvider = Provider.of<LearningHistoryProvider>(context, listen: false);
+    historyProvider.addHistory(
+      prayerType: provider.currentPrayerName ?? 'Sholat',
+      prayerName: provider.currentPrayerName ?? 'Sholat',
+      stepsCompleted: provider.prayerSteps.length,
+      totalSteps: provider.prayerSteps.length,
+    );
+    
     showDialog(
       context: context,
       builder: (context) => AlertDialog(

@@ -1,0 +1,34 @@
+{
+    "doaList": [
+        {
+            "id": "doa_pagi",
+            "title": "Doa Pagi Hari",
+            "category": "Pagi & Petang",
+            "arabicText": "اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا...",
+            "transliteration": "Allahumma bika ashbahnaa wa bika amsainaa...",
+            "translation": "Ya Allah, karena Engkau kami mengalami waktu pagi...",
+            "context": "Dibaca di pagi hari untuk bersyukur masuknya waktu pagi.",
+            "audioPath": "audio/doa/doa_pagi.mp3"
+        },
+        {
+            "id": "doa_petang",
+            "title": "Doa Petang Hari",
+            "category": "Pagi & Petang",
+            "arabicText": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ...",
+            "transliteration": "Amsainaa wa amsal mulku lillah...",
+            "translation": "Kami memasuki waktu petang dan kerajaan hanya milik Allah...",
+            "context": "Dibaca di petang hari (sore) untuk bersyukur masuknya waktu petang.",
+            "audioPath": "audio/doa/doa_petang.m4a"
+        },
+        {
+            "id": "doa_bangun_tidur",
+            "title": "Doa Bangun Tidur",
+            "category": "Doa Harian",
+            "arabicText": "اَلْحَمْدُ ِللّٰهِ الَّذِيْ أَحْيَانَا بَعْدَمَا أَمَاتَنَا...",
+            "transliteration": "Alḫamdulillâhil ladzî aḫyânâ ba'da mâ amâtanâ...",
+            "translation": "Segala puji bagi Allah yang menghidupkanku kembali...",
+            "context": "Dibaca segera setelah bangun dari tidur.",
+            "audioPath": "audio/doa/doa_bangun_tidur.mp3"
+        }
+    ]
+}

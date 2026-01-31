@@ -43,6 +43,9 @@ dependencies:
   
   # Google Fonts for Arabic text
   google_fonts: ^6.1.0
+  
+  # Audio playback
+  audioplayers: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +81,10 @@ flutter:
     - assets/data/
     - assets/images/
     - assets/images/sholat/
+    - assets/audio/
+    - assets/audio/prayer/
+    - assets/audio/doa/
+    - assets/audio/wudhu/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

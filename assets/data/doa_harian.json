@@ -4,10 +4,11 @@
             "id": "doa_pagi",
             "title": "Doa Pagi Hari",
             "category": "Pagi & Petang",
-            "arabicText": "اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ",
+            "arabicText": "اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ",
             "transliteration": "Allahumma bika ashbahnaa wa bika amsainaa wa bika nahyaa wa bika namuutu wa ilaikan nusyuuru",
             "translation": "Ya Allah, karena Engkau kami mengalami waktu pagi dan waktu petang, dan karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali.",
-            "context": "Dibaca di pagi hari untuk bersyukur masuknya waktu pagi."
+            "context": "Dibaca di pagi hari untuk bersyukur masuknya waktu pagi.",
+            "audioPath": "audio/doa/doa_pagi.mpeg"
         },
         {
             "id": "doa_petang",
@@ -16,7 +17,8 @@
             "arabicText": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ",
             "transliteration": "Amsainaa wa amsal mulku lillah, walhamdulillah, laa ilaaha illallahu wahdahu laa syarika lah",
             "translation": "Kami memasuki waktu petang dan kerajaan hanya milik Allah, segala puji bagi Allah, tidak ada tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya.",
-            "context": "Dibaca di petang hari (sore) untuk bersyukur masuknya waktu petang."
+            "context": "Dibaca di petang hari (sore) untuk bersyukur masuknya waktu petang.",
+            "audioPath": "audio/doa/doa_petang.mpeg"
         },
         {
             "id": "doa_bangun_tidur",
@@ -25,7 +27,8 @@
             "arabicText": "اَلْحَمْدُ ِللّٰهِ الَّذِيْ أَحْيَانَا بَعْدَمَا أَمَاتَنَا وَإِلَيْهِ النُّشُوْرُ",
             "transliteration": "Alḫamdulillâhil ladzî aḫyânâ ba‘da mâ amâtanâ wa ilaihin nusyûr(u)",
             "translation": "Segala puji bagi Allah yang menghidupkanku kembali setelah mematikanku dan hanya kepada-Nya akan bangkit.",
-            "context": "Dibaca segera setelah bangun dari tidur."
+            "context": "Dibaca segera setelah bangun dari tidur.",
+            "audioPath": "audio/doa/doa_bangun_tidur.mpeg"
         },
         {
             "id": "doa_sebelum_tidur",
@@ -34,7 +37,8 @@
             "arabicText": "بِاسْمِكَ اللهُمَّ أَحْيَا وَأَمُوْتُ",
             "transliteration": "Bismika Allahumma ahyaa wa bismika amuut",
             "translation": "Dengan menyebut nama Allah yang menghidupkan dan mematikan.",
-            "context": "Dibaca sebelum memejamkan mata untuk tidur."
+            "context": "Dibaca sebelum memejamkan mata untuk tidur.",
+            "audioPath": "audio/doa/doa_sebelum_tidur.mpeg"
         },
         {
             "id": "doa_sebelum_makan",
@@ -43,7 +47,8 @@
             "arabicText": "اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
             "transliteration": "Allâhumma bârik lanâ fîmâ razaqtanâ waqinâ ‘adzâban nâr(i)",
             "translation": "Ya Allah, berkahilah apa yang telah Engkau anugerahkan kepada kami dan jagalah kami dari siksa neraka.",
-            "context": "Dibaca sebelum menyantap makanan atau minuman."
+            "context": "Dibaca sebelum menyantap makanan atau minuman.",
+            "audioPath": "audio/doa/doa_sebelum_makan.mpeg"
         },
         {
             "id": "doa_setelah_makan",
@@ -52,7 +57,8 @@
             "arabicText": "اَلْحَمْدُ لِلّٰهِ الَّذِيْ أَطْعَمَنَا وَسَقَــــانَا وَجَعَلَنَا مِنَ الْمُسْلِمِيْنَ",
             "transliteration": "Alḫamdulillâhilladzî ath‘amanâ wa saqânâ wa ja‘alanâ minal muslimîn(a)",
             "translation": "Segala puji bagi Allah yang telah memberi kami makan dan minum, serta menjadikan kami sebagai orang-orang yang berserah diri.",
-            "context": "Dibaca setelah selesai makan dan minum."
+            "context": "Dibaca setelah selesai makan dan minum.",
+            "audioPath": "audio/doa/doa_setelah_makan.mpeg"
         },
         {
             "id": "doa_masuk_rumah",
@@ -61,7 +67,8 @@
             "arabicText": "اَللّٰهُمَّ إِنِّي أَسْأَلُكَ اَللّٰهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلَجِ وَخَيْرَ الْمَخْرَجِ بِاسْمِ اللهِ وَلَجْنَا، وبِاسْمِ اللهِ خَرَجْنَا، وَعَلَى اللهِ رَبِّنَا تَوَكَّلْنَا",
             "transliteration": "Allâhumma innî as’aluka khairal maulaji wa khairal makhraji, bismillâhi walajnâ wa bismillâhi kharajnâ wa ‘ala-Llâhi rabbinâ tawakkalnâ",
             "translation": "Ya Allah, aku memohon kepada-Mu sebaik-baik tempat masuk dan sebaik-baik tempat keluar. Atas nama-Mu kami masuk dan atas nama-Mu kami keluar. Dan kepada Allah Tuhan kami, kami bertawakal.",
-            "context": "Dibaca saat melangkah masuk ke dalam rumah."
+            "context": "Dibaca saat melangkah masuk ke dalam rumah.",
+            "audioPath": "audio/doa/doa_masuk_rumah.mpeg"
         },
         {
             "id": "doa_keluar_rumah",
@@ -70,7 +77,8 @@
             "arabicText": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
             "transliteration": "Bismillâhi tawakkaltu ‘alallâhi wa lâ ḫaula wa lâ quwwata illâ billâh(i)",
             "translation": "Dengan nama Allah, aku bertawakal kepada Allah. Tidak ada daya dan kekuatan kecuali dengan (pertolongan) Allah.",
-            "context": "Dibaca saat akan pergi ke luar rumah."
+            "context": "Dibaca saat akan pergi ke luar rumah.",
+            "audioPath": "audio/doa/doa_keluar_rumah.mpeg"
         },
         {
             "id": "doa_kedua_orangtua",
@@ -79,7 +87,8 @@
             "arabicText": "رَبِّ اغْفِرْ لِيْ وَلِوَالِدَيَّ وَارْحَمْهُمَا كَمَا رَبَّيَانِيْ صَغِيْرًا",
             "transliteration": "Rabbighfir lî  wa li wâlidayya warḫamhumâ kamâ rabbayânî shaghîrâ",
             "translation": "Tuhanku, ampunilah diriku dan kedua orang tuaku, sayangilah mereka sebagaimana mereka menyayangiku di waktu aku kecil.",
-            "context": "Doa kasih sayang untuk Ayah dan Ibu."
+            "context": "Doa kasih sayang untuk Ayah dan Ibu.",
+            "audioPath": "audio/doa/doa_kedua_orangtua.mpeg"
         },
         {
             "id": "doa_mudah_rezeki",
@@ -88,7 +97,8 @@
             "arabicText": "اَللّٰهُ لَطِيْفٌۢ بِعِبَادِهٖ يَرْزُقُ مَنْ يَّشَاۤءُۚ وَهُوَ الْقَوِيُّ الْعَزِيْزُ\n\nاَللّٰهُمَّ إِنِّي أَسْأَلُكَ أَنْ تَرْزُقَنِيْ رِزْقًا حَلَالًا وَاسِعًا طَيِّبًا مِنْ غَيْرِ تَعَبٍ وَلَا مَشَقَّةٍ وَلَا ضَيْرٍ وَلَانَصَبٍ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
             "transliteration": "Allâhu lathîfun bi ‘ibâdihi yarzuqu man yasyâ’(u), wa huwal qawiyyul ‘azîz(u)\n\nAllâhumma innî as-aluka an tarzuqanî rizqan ḫalâlan wâsi‘an thayyiban min ghairi ta’abin wa lâ masyaqqatin wa lâ dlairin wa lâ nashabin innaka ‘alâ kulli syai-in qadîr(un)",
             "translation": "Allah Maha Lembut terhadap hamba-hamba-Nya; Dia memberi rezeki kepada siapa yang Dia kehendaki dan Dia Mahakuat, Mahaperkasa.\n\nYa Allah aku mohon kepadamu limpahan rezeki yang halal, luas, dan baik, yang didapat tanpa letih, memberatkan, membahayakan, dan banting tulang. Sungguh Engkau Mahakuasa atas segala sesuatu..",
-            "context": "Dibaca setiap pagi untuk keberkahan aktivitas."
+            "context": "Dibaca setiap pagi untuk keberkahan aktivitas.",
+            "audioPath": "audio/doa/doa_mudah_rezeki.mpeg"
         },
         {
             "id": "doa_naik_kendaraan",
@@ -97,7 +107,8 @@
             "arabicText": "سُبْحٰنَ الَّذِيْ سَخَّرَ لَنَا هٰذَا وَمَا كُنَّا لَهٗ مُقْرِنِيْنَۙ وَاِنَّآ اِلٰى رَبِّنَا لَمُنْقَلِبُوْنَ",
             "transliteration": "Subḫânalladzî sakhkhara lanâ hâdzâ wa mâ kunnâ lahû muqrinîn wa innâ ilâ rabbinâ lamunqalibûn",
             "translation": "Maha-suci (Allah) yang telah menundukkan semua ini bagi kami padahal kami sebelumnya tidak mampu menguasainya, dan sesungguhnya kami akan kembali kepada Tuhan kami. (QS az-Zukhruf: 13-14)",
-            "context": "Dibaca saat naik kendaraan"
+            "context": "Dibaca saat naik kendaraan",
+            "audioPath": "audio/doa/doa_naik_kendaraan.mpeg"
         },
         {
             "id": "doa_masuk_masjid",
@@ -106,7 +117,8 @@
             "arabicText": "اَللّٰهُمَّ اغْفِرْ لِيْ ذُنُوْبِيْ وَافْتَحْ لِيْ أَبْوَابَ رَحْمَتِكَ",
             "transliteration": "Allâhummaghfir lî dzunûbî waftaḫ lî abwâba raḫmatik(a)",
             "translation": "Ya Allah, ampuni segala dosaku dan bukalah bagiku segala pintu rahmat-Mu.",
-            "context": "Dibaca saat memasuki masjid dengan mendahulukan kaki kanan."
+            "context": "Dibaca saat memasuki masjid dengan mendahulukan kaki kanan.",
+            "audioPath": "audio/doa/doa_masuk_masjid.mpeg"
         },
         {
             "id": "doa_keluar_masjid",

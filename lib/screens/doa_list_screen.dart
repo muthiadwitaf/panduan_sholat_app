@@ -17,6 +17,7 @@ class _DoaListScreenState extends State<DoaListScreen> {
   void initState() {
     super.initState();
     Future.microtask(() {
+      if (!mounted) return;
       Provider.of<DoaProvider>(context, listen: false).loadDoas();
     });
   }

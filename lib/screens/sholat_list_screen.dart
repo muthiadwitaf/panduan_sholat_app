@@ -17,6 +17,7 @@ class _SholatListScreenState extends State<SholatListScreen> {
   void initState() {
     super.initState();
     Future.microtask(() {
+      if (!mounted) return;
       Provider.of<PrayerProvider>(context, listen: false).loadSholatList();
     });
   }

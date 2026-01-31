@@ -1,0 +1,41 @@
+{
+  "prayerSteps": [
+    {
+      "stepId": "niat",
+      "title": "Niat Sholat",
+      "type": "dynamic",
+      "arabicText": "",
+      "latinText": "",
+      "translation": "",
+      "imagePath": "assets/images/sholat/sholat_01_niat.png",
+      "audioPath": "audio/prayer/niat.mp3"
+    },
+    {
+      "stepId": "takbir",
+      "title": "Takbiratul Ihram",
+      "arabicText": "اللّٰهُ أَكْبَرُ",
+      "latinText": "Allahu Akbar",
+      "translation": "Allah Maha Besar",
+      "imagePath": "assets/images/sholat/sholat_02_takbir.png",
+      "audioPath": "audio/prayer/takbir.m4a"
+    },
+    {
+      "stepId": "iftitah",
+      "title": "Doa Iftitah",
+      "arabicText": "اَللّٰهُ أَكْبَرُ كَبِيْرًا وَّالْحَمْدُ لِلّٰهِ كَثِيْرًا...",
+      "latinText": "Allâhu akbar kabîran walḫamdu lillâhi katsîran...",
+      "translation": "Allah Maha Besar, Maha Sempurna kebesaran-Nya...",
+      "imagePath": "assets/images/sholat/sholat_03_iftitah.png",
+      "audioPath": "audio/prayer/iftitah.mp3"
+    },
+    {
+      "stepId": "fatihah",
+      "title": "Al-Fatihah",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ...",
+      "latinText": "bismillâhir-raḫmânir-raḫîm...",
+      "translation": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang...",
+      "imagePath": "assets/images/sholat/sholat_04_berdiri.png",
+      "audioPath": "audio/prayer/fatihah.ogg"
+    }
+  ]
+}

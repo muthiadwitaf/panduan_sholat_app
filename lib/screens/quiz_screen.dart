@@ -19,6 +19,7 @@ class _QuizScreenState extends State<QuizScreen> {
   void initState() {
     super.initState();
     Future.microtask(() async {
+      if (!mounted) return;
       final provider = Provider.of<QuizProvider>(context, listen: false);
       await provider.loadQuestions();
     });

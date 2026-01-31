@@ -15,15 +15,17 @@
             "arabicText": "اللّٰهُ أَكْبَرُ",
             "latinText": "Allahu Akbar",
             "translation": "Allah Maha Besar",
-            "imagePath": "assets/images/sholat/sholat_02_takbir.png"
+            "imagePath": "assets/images/sholat/sholat_02_takbir.png",
+            "audioPath": "audio/prayer/takbir.wav"
         },
         {
             "stepId": "iftitah",
             "title": "Doa Iftitah",
             "arabicText": "اَللّٰهُ أَكْبَرُ كَبِيْرًا وَّالْحَمْدُ لِلّٰهِ كَثِيْرًا وَّسُبْحَانَ اللّٰهِ بُكْرَةً وَّأَصِيْلًا، إِنِّيْ وَجَّهْتُ وَجْهِيَ لِلَّذِيْ فَطَرَ السَّمٰوَاتِ وَالْأَرْضَ حَنِيْفًا مُّسْلِمًا وَّمَا أَنَا مِنَ الْمُشْرِكِيْنَ، إِنَّ صَلَاتِيْ وَنُسُكِيْ وَمَحْيَايَ وَمَمَاتِيْ لِلّٰهِ رَبِّ الْعَالَمِيْنَ، لَا شَرِيْكَ لَهُ وَبِذٰلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِيْنَ",
-            "latinText": "Allâhu akbar kabîran walḫamdu lillâhi katsîran wa subḫânallâhi bukratan wa ashîlâ. Innî wajjahtu wajhiya lilladzî fatharas samâwâti wal ardla ḫanîfan musliman wa mâ ana minal musyrikîn. Inna shalâtî wa nusukî wa maḫyâya wa mamâtî lillâhi rabbil ‘âlamîn. Lâ syarîka lahû wa bi dzâlika umirtu wa ana minal muslimîn.",
+            "latinText": "Allâhu akbar kabîran walḫamdu lillâhi katsîran wa subḫânallâhi bukratan wa ashîlâ. Innî wajjahtu wajhiya lilladzî fatharas samâwâti wal ardla ḫanîfan musliman wa mâ ana minal musyrikîn. Inna shalâtî wa nusukî wa maḫyâya wa mamâtî lillâhi rabbil 'âlamîn. Lâ syarîka lahû wa bi dzâlika umirtu wa ana minal muslimîn.",
             "translation": "Allah Maha Besar, Maha Sempurna kebesaran-Nya. Segala puji bagi Allah, pujian yang sebanyak-banyaknya. Maha Suci Allah sepanjang pagi dan petang. Kuhadapkan wajahku kepada Dzat yang telah menciptakan langit dan bumi dengan penuh ketulusan dan kepasrahan dan aku bukanlah termasuk orang-orang yang musyrik. Sesungguhnya shalatku, ibadahku, hidupku, dan matiku semuanya untuk Allah, penguasa alam semesta. Tidak ada sekutu bagi-Nya dan dengan demikian aku diperintahkan dan aku termasuk orang-orang Islam.",
-            "imagePath": "assets/images/sholat/sholat_03_iftitah.png"
+            "imagePath": "assets/images/sholat/sholat_03_iftitah.png",
+            "audioPath": "audio/prayer/iftitah.wav"
         },
         {
             "stepId": "fatihah",
@@ -31,7 +33,8 @@
             "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝١اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ۝٢الرَّحْمٰنِ الرَّحِيْمِۙ ۝٣مٰلِكِ يَوْمِ الدِّيْنِۗ ۝٤اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ ۝٥اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ۝٦صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَࣖ ۝٧",
             "latinText": "bismillâhir-raḫmânir-raḫîm\n\n al-ḫamdu lillâhi rabbil-‘âlamîn\n\n ar-raḫmânir-raḫîm\n\n mâliki yaumid-dîn\n\n iyyâka na‘budu wa iyyâka nasta‘în\n\n ihdinash-shirâthal-mustaqîm\n\n shirâthalladzîna an‘amta ‘alaihim ghairil-maghdlûbi ‘alaihim wa ladl-dlâllîn",
             "translation": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang.\n\n Segala puji bagi Allah, Tuhan semesta alam.\n\n Yang Maha Pengasih lagi Maha Penyayang,\n\n Pemilik hari Pembalasan.\n\n Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami memohon pertolongan.\n\n Bimbinglah kami ke jalan yang lurus,\n\n (Yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.",
-            "imagePath": "assets/images/sholat/sholat_04_berdiri.png"
+            "imagePath": "assets/images/sholat/sholat_04_berdiri.png",
+            "audioPath": "audio/prayer/fatihah.mp3"
         },
         {
             "stepId": "surat",
@@ -47,7 +50,8 @@
             "arabicText": "سُبْحَانَ رَبِّيَ الْعَظِيْمِ وَبِحَمْدِهِ ×٣",
             "latinText": "Subḫâna rabbiyal ‘adhîmi wa bi ḫamdih (3x)",
             "translation": "Maha Suci Tuhanku Yang Maha Agung serta memujilah aku kepada-Nya. (3x)",
-            "imagePath": "assets/images/sholat/sholat_05_ruku.png"
+            "imagePath": "assets/images/sholat/sholat_05_ruku.png",
+            "audioPath": "audio/prayer/ruku.wav"
         },
         {
             "stepId": "itidal",
@@ -55,7 +59,8 @@
             "arabicText": "رَبَّنَا لَكَ الْحَمْدُ مِلْءُ السَّمَاوَاتِ وَمِلْءُ الْأَرْضِ وَمِلْءُ مَا شِئْتَ مِنْ شَيْءٍ بَعْدُ",
             "latinText": "Rabbanâ lakal ḫamdu mil’us samâwati wa mil‘ul ardli wa mil‘u mâ syi’ta min syai’in ba’du",
             "translation": "Ya Allah Tuhan kami, bagi-Mu segala puji, sepenuh langit dan bumi dan sepenuh apa saja yang Engkau kehendaki sesudah itu.",
-            "imagePath": "assets/images/sholat/sholat_06_itidal.png"
+            "imagePath": "assets/images/sholat/sholat_06_itidal.png",
+            "audioPath": "audio/prayer/itidal.wav"
         },
         {
             "stepId": "sujud",
@@ -63,7 +68,8 @@
             "arabicText": "سُبْحَانَ رَبِّيَ الْأَعْلَى وَبِحَمْدِهِ ×٣",
             "latinText": "Subhana rabbiyal a'la wa bihamdih (3x)",
             "translation": "Maha Suci Tuhanku Yang Maha Tinggi dan dengan segala puji-Nya (3x)",
-            "imagePath": "assets/images/sholat/sholat_07_sujud.png"
+            "imagePath": "assets/images/sholat/sholat_07_sujud.png",
+            "audioPath": "audio/prayer/sujud.wav"
         },
         {
             "stepId": "duduk_sujud",
@@ -71,7 +77,8 @@
             "arabicText": "رَبِّ اغْفِرْ لِيْ وَارْحَمْنِيْ وَاجْبُرْنِيْ وَارْفَعْنِيْ وَارْزُقْنِيْ وَاهْدِنِيْ وَعَافِنِيْ وَاعْفُ عَنِّيْ",
             "latinText": "Rabbighfirlî warḫamnî wajburnî warfa‘nî warzuqnî wahdinî wa ‘âfinî wa‘fu ‘annî",
             "translation": "Ya Allah, ampunilah dosaku, belas kasihanilah aku, perbaikilah kesalahanku, angkatlah derajatku, berilah aku rezeki, anugerahilah aku petunjuk, karuniailah aku kesehatan, dan maafkanlah aku.",
-            "imagePath": "assets/images/sholat/sholat_08_duduk.png"
+            "imagePath": "assets/images/sholat/sholat_08_duduk.png",
+            "audioPath": "audio/prayer/duduk_sujud.wav"
         },
         {
             "stepId": "tasyahud_awal",
@@ -79,7 +86,8 @@
             "arabicText": "التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلّٰهِ، السَّلامُ عَلَيْكَ أيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللّٰهِ الصَّالِحِيْنَ، أَشْهَدُ أَنْ لَّا إِلٰهَ إِلَّا اللّٰهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَّسُوْلُ اللّٰهِ",
             "latinText": "Attahiyyâtul mubârakâtush shalâwatuth thayyibâtu lillâh. Assalâmu ‘alaika ayyuhan nabiyyu wa raḫmatullâhi wa barakâtuh. Assalâmu ‘alainâ wa‘alâ ‘ibadillâhish shâliḫîn. Asyhadu an lâilâha illallâh wa asyhadu anna muḫammadar rasûlullâh",
             "translation": "Segala kehormatan, keberkahan, rahmat, dan kebaikan adalah milik Allah. Semoga keselamatan, rahmat Allah dan berkah-Nya (tetap tercurahkan) atasmu, wahai Nabi (Muhammad). Semoga keselamatan (tetap terlimpahkan) atas kami dan atas hamba-hamba Allah yang saleh. Aku bersaksi bahwa tidak ada Tuhan selain Allah dan aku bersaksi bahwa Muhammad adalah utusan Allah.",
-            "imagePath": "assets/images/sholat/sholat_09_tasyahud_awal.png"
+            "imagePath": "assets/images/sholat/sholat_09_tasyahud_awal.png",
+            "audioPath": "audio/prayer/tasyahut_awal.wav"
         },
         {
             "stepId": "tasyahud_akhir",
@@ -87,7 +95,8 @@
             "arabicText": "التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلّٰهِ، السَّلَامُ عَلَيْكَ أيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللّٰهِ الصَّالِحِيْنَ، أشْهَدُ أَنْ لَّا إِلٰهَ إِلَّا اللّٰهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَّسُولُ اللّٰهِ\n\n اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَّعَلَى اٰلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيْمَ وَعَلَى اٰلِ سَيِّدِنَا إِبْرَاهِيْمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَّعَلَى اٰلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيّدِنَا إِبْرَاهِيْمَ وَعَلَى اٰلِ سَيِّدِنَا إِبْرَاهِيْمَ فِي الْعَالَمِيْنَ إنَّكَ حَمِيْدٌ مَّجِيْدٌ",
             "latinText": "Attahiyyâtul mubârakâtush shalawatuth thayyibâtu lillâh. Assalâmu ‘alaika ayyuhan nabiyyu waraḫmatullâhi wabarakâtuh. Assalâmu ‘alainâ wa ‘alâ ‘ibadadillâhish shâliḫîn. Asyhadu an lâilâha illallâh wa asyhadu anna muḫammadar rasûlullâh\n\n Allâhumma shalli ‘alâ sayyidinâ muḫammad wa ‘alâ âli sayyidinâ muḫammad kamâ shallaitâ ‘alâ sayyidinâ ibrâhîm wa ‘alâ âli sayyidinâ ibrâhîm wa bârik ‘alâ sayyidinâ muḫammad wa ‘alâ âli sayyidinâ muḫammad kamâ bârakta ‘alâ sayyidinâ ibrâhîm wa ‘alâ âli sayyidinâ ibrâhîm. Fil ‘âlamîna innaka ḫamîdum majîd",
             "translation": "Segala kehormatan, keberkahan, rahmat dan kebaikan adalah milik Allah. Semoga keselamatan, rahmat Allah dan berkah-Nya (tetap tercurahkan) atas mu, wahai Nabi (Muhammad). Semoga keselamatan (tetap terlimpahkan) atas kami dan atas hamba-hamba Allah yang saleh. Aku bersaksi bahwa tidak ada Tuhan selain Allah dan aku bersaksi bahwa Muhammad adalah utusan Allah.\n\n Ya Allah, limpahkanlah rahmat kepada junjungan kami Nabi Muhammad dan kepada keluarga junjungan kami Nabi Muhammad, sebagaimana pernah Engkau beri rahmat kepada junjungan kami Nabi Ibrahim dan kepada keluarga junjungan kami Nabi Ibrahim. Dan limpahilah berkah kepada kepada junjungan kami Nabi Muhammad dan kepada keluarga junjungan kami Nabi Muhammad, sebagaimana Engkau pernah beri berkah kepada junjungan kami Nabi Ibrahim dan kepada keluarga junjungan kami Nabi Ibrahim. Di seluruh alam semesta Engkaulah Yang Terpuji dan Maha Mulia.",
-            "imagePath": "assets/images/sholat/sholat_10_tasyahud_akhir.png"
+            "imagePath": "assets/images/sholat/sholat_10_tasyahud_akhir.png",
+            "audioPath": "audio/prayer/tasyahut_akhir.mp3"
         },
         {
             "stepId": "salam",
@@ -95,7 +104,8 @@
             "arabicText": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
             "latinText": "Assalamu'alaikum wa rahmatullah",
             "translation": "Semoga kesejahteraan dan rahmat Allah tercurah kepada kalian",
-            "imagePath": "assets/images/sholat/sholat_11_salam.png"
+            "imagePath": "assets/images/sholat/sholat_11_salam.png",
+            "audioPath": "audio/prayer/salam.mp3"
         },
         {
             "stepId": "qunut",

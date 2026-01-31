@@ -10,12 +10,14 @@ class PrayerProvider with ChangeNotifier {
   int _currentStepIndex = 0;
   bool _isLoading = false;
   String? _error;
+  String? _currentPrayerName;
 
   List<PrayerStep> get prayerSteps => _prayerSteps;
   List<SholatItem> get sholatList => _sholatList;
   int get currentStepIndex => _currentStepIndex;
   bool get isLoading => _isLoading;
   String? get error => _error;
+  String? get currentPrayerName => _currentPrayerName;
   
   PrayerStep? get currentStep => 
       _prayerSteps.isNotEmpty ? _prayerSteps[_currentStepIndex] : null;
@@ -48,6 +50,7 @@ class PrayerProvider with ChangeNotifier {
       _patterns = patternsJson.map((key, value) => MapEntry(key, List<String>.from(value as List)));
       
       _prayerSteps = _generateFullSequence(sholat, allBaseSteps);
+      _currentPrayerName = sholat.name;
       
       _currentStepIndex = 0;
       _isLoading = false;

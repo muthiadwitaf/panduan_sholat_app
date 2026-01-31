@@ -5,6 +5,7 @@ class PrayerStep {
   final String latinText;
   final String translation;
   final String imagePath;
+  final String? audioPath;
   final String? niat;
   final int? rakaat;
   
@@ -15,6 +16,7 @@ class PrayerStep {
     required this.latinText,
     required this.translation,
     required this.imagePath,
+    this.audioPath,
     this.niat,
     this.rakaat,
   });
@@ -27,6 +29,7 @@ class PrayerStep {
       latinText: json['latinText'] as String,
       translation: json['translation'] as String,
       imagePath: json['imagePath'] as String,
+      audioPath: json['audioPath'] as String?,
       niat: json['niat'] as String?,
       rakaat: json['rakaat'] as int?,
     );
@@ -39,6 +42,7 @@ class PrayerStep {
     String? arabicText,
     String? latinText,
     String? translation,
+    String? audioPath,
   }) {
     return PrayerStep(
       stepId: stepId,
@@ -47,6 +51,7 @@ class PrayerStep {
       latinText: latinText ?? this.latinText,
       translation: translation ?? this.translation,
       imagePath: imagePath,
+      audioPath: audioPath ?? this.audioPath,  // Preserve audioPath!
       niat: niat ?? this.niat,
       rakaat: rakaat ?? this.rakaat,
     );
@@ -60,6 +65,7 @@ class PrayerStep {
       'latinText': latinText,
       'translation': translation,
       'imagePath': imagePath,
+      'audioPath': audioPath,
       'niat': niat,
       'rakaat': rakaat,
     };
