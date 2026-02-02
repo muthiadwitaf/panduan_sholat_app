@@ -129,7 +129,6 @@ class SholatDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 40),
             
-            // Practice Button
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

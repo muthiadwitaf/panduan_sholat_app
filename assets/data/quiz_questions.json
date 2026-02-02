@@ -11,75 +11,11 @@
             ],
             "correctAnswerIndex": 0,
             "explanation": "Sholat Subuh dilakukan sebanyak 2 rakaat",
-            "category": "Rukun Sholat"
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
         },
         {
             "id": "q2",
-            "question": "Apa bacaan yang wajib dibaca dalam setiap rakaat sholat?",
-            "options": [
-                "Doa Iftitah",
-                "Surat Al-Fatihah",
-                "Shalawat",
-                "Doa Qunut"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Al-Fatihah wajib dibaca dalam setiap rakaat sholat",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q3",
-            "question": "Gerakan apa yang dilakukan setelah ruku?",
-            "options": [
-                "Sujud",
-                "I'tidal",
-                "Duduk",
-                "Salam"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Setelah ruku, kita melakukan i'tidal yaitu berdiri kembali",
-            "category": "Gerakan Sholat"
-        },
-        {
-            "id": "q4",
-            "question": "Apa bacaan saat ruku?",
-            "options": [
-                "Subhana rabbiyal 'ala",
-                "Subhana rabbiyal 'azhim",
-                "Sami'allahu liman hamidah",
-                "Allahu akbar"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Bacaan saat ruku adalah Subhana rabbiyal 'azhim wa bihamdih",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q5",
-            "question": "Berapa kali minimal bacaan saat sujud?",
-            "options": [
-                "1 kali",
-                "2 kali",
-                "3 kali",
-                "7 kali"
-            ],
-            "correctAnswerIndex": 2,
-            "explanation": "Minimal 3 kali membaca Subhana rabbiyal a'la saat sujud",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q6",
-            "question": "Kapan takbiratul ihram dilakukan?",
-            "options": [
-                "Di awal sholat",
-                "Setelah membaca Al-Fatihah",
-                "Sebelum ruku",
-                "Sebelum sujud"
-            ],
-            "correctAnswerIndex": 0,
-            "explanation": "Takbiratul ihram dilakukan di awal sholat sebagai tanda memulai sholat",
-            "category": "Rukun Sholat"
-        },
-        {
-            "id": "q7",
             "question": "Berapa jumlah rakaat sholat Maghrib?",
             "options": [
                 "2 rakaat",
@@ -89,102 +25,40 @@
             ],
             "correctAnswerIndex": 1,
             "explanation": "Sholat Maghrib dilakukan sebanyak 3 rakaat",
-            "category": "Rukun Sholat"
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
         },
         {
-            "id": "q8",
-            "question": "Apa yang dibaca setelah Al-Fatihah di rakaat pertama?",
+            "id": "q3",
+            "question": "Berapa jumlah rakaat sholat Dzuhur?",
             "options": [
-                "Tasyahud",
-                "Surat pendek atau ayat Al-Quran",
-                "Doa Qunut",
-                "Shalawat"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Setelah Al-Fatihah di rakaat pertama dan kedua, kita membaca surat pendek atau ayat Al-Quran",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q9",
-            "question": "Apa bacaan saat i'tidal?",
-            "options": [
-                "Subhana rabbiyal 'azhim",
-                "Sami'allahu liman hamidah",
-                "Rabbighfirli warhamni",
-                "Attahiyyatul mubarakaat"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Saat i'tidal kita membaca 'Sami'allahu liman hamidah, Rabbana wa lakal hamdu'",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q10",
-            "question": "Berapa kali sujud dalam satu rakaat?",
-            "options": [
-                "1 kali",
-                "2 kali",
-                "3 kali",
-                "4 kali"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Dalam satu rakaat terdapat 2 kali sujud",
-            "category": "Gerakan Sholat"
-        },
-        {
-            "id": "q11",
-            "question": "Apa yang dibaca di antara dua sujud?",
-            "options": [
-                "Subhana rabbiyal a'la",
-                "Rabbighfirli warhamni",
-                "Sami'allahu liman hamidah",
-                "Attahiyyatul mubarakaat"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Di antara dua sujud kita membaca 'Rabbighfirli warhamni' (Ya Tuhan ampunilah dan rahmatilah aku)",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q12",
-            "question": "Kapan tasyahud akhir dibaca?",
-            "options": [
-                "Setelah rakaat pertama",
-                "Setelah rakaat kedua",
-                "Sebelum salam di akhir sholat",
-                "Sebelum ruku"
+                "2 rakaat",
+                "3 rakaat",
+                "4 rakaat",
+                "5 rakaat"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Tasyahud akhir dibaca sebelum salam di akhir sholat",
-            "category": "Rukun Sholat"
+            "explanation": "Sholat Dzuhur dilakukan sebanyak 4 rakaat",
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
         },
         {
-            "id": "q13",
-            "question": "Sholat apakah yang dilakukan 4 rakaat pada waktu siang?",
+            "id": "q4",
+            "question": "Berapa jumlah rakaat sholat Ashar?",
             "options": [
-                "Subuh",
-                "Dzuhur",
-                "Ashar",
-                "Maghrib"
+                "2 rakaat",
+                "3 rakaat",
+                "4 rakaat",
+                "5 rakaat"
             ],
-            "correctAnswerIndex": 1,
-            "explanation": "Sholat Dzuhur dilakukan 4 rakaat pada waktu siang hari",
-            "category": "Rukun Sholat"
+            "correctAnswerIndex": 2,
+            "explanation": "Sholat Ashar dilakukan sebanyak 4 rakaat",
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
         },
         {
-            "id": "q14",
-            "question": "Apa makna 'Allahu Akbar'?",
-            "options": [
-                "Allah Maha Esa",
-                "Allah Maha Besar",
-                "Allah Maha Pengasih",
-                "Allah Maha Mengetahui"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "'Allahu Akbar' artinya Allah Maha Besar",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q15",
-            "question": "Berapa rakaat sholat Isya?",
+            "id": "q5",
+            "question": "Berapa jumlah rakaat sholat Isya?",
             "options": [
                 "2 rakaat",
                 "3 rakaat",
@@ -193,62 +67,11 @@
             ],
             "correctAnswerIndex": 2,
             "explanation": "Sholat Isya dilakukan sebanyak 4 rakaat",
-            "category": "Rukun Sholat"
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
         },
         {
-            "id": "q16",
-            "question": "Apa bacaan saat sujud?",
-            "options": [
-                "Subhana rabbiyal 'azhim",
-                "Subhana rabbiyal a'la",
-                "Sami'allahu liman hamidah",
-                "Allahu akbar"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Bacaan saat sujud adalah Subhana rabbiyal a'la wa bihamdih",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q17",
-            "question": "Bagaimana cara mengakhiri sholat?",
-            "options": [
-                "Dengan takbir",
-                "Dengan doa",
-                "Dengan salam",
-                "Dengan berdiri"
-            ],
-            "correctAnswerIndex": 2,
-            "explanation": "Sholat diakhiri dengan mengucapkan salam ke kanan dan ke kiri",
-            "category": "Rukun Sholat"
-        },
-        {
-            "id": "q18",
-            "question": "Apa yang dimaksud dengan 'Qiblat'?",
-            "options": [
-                "Arah Masjid Nabawi",
-                "Arah Ka'bah",
-                "Arah Timur",
-                "Arah Matahari"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Qiblat adalah arah menghadap Ka'bah saat sholat",
-            "category": "Rukun Sholat"
-        },
-        {
-            "id": "q19",
-            "question": "Kapan Doa Iftitah dibaca?",
-            "options": [
-                "Setelah takbiratul ihram",
-                "Setelah ruku",
-                "Sebelum salam",
-                "Setelah sujud"
-            ],
-            "correctAnswerIndex": 0,
-            "explanation": "Doa Iftitah dibaca setelah takbiratul ihram di awal sholat",
-            "category": "Bacaan Sholat"
-        },
-        {
-            "id": "q20",
+            "id": "q6",
             "question": "Berapa jumlah sholat fardhu dalam sehari semalam?",
             "options": [
                 "3 waktu",
@@ -258,11 +81,96 @@
             ],
             "correctAnswerIndex": 2,
             "explanation": "Sholat fardhu ada 5 waktu: Subuh, Dzuhur, Ashar, Maghrib, dan Isya",
-            "category": "Rukun Sholat"
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
         },
         {
-            "id": "q21",
-            "question": "Berapa kali kita disunnahkan berkumur saat berwudhu?",
+            "id": "q7",
+            "question": "Apa bacaan yang wajib dibaca dalam setiap rakaat sholat?",
+            "options": [
+                "Doa Iftitah",
+                "Surat Al-Fatihah",
+                "Shalawat",
+                "Doa Qunut"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Al-Fatihah wajib dibaca dalam setiap rakaat sholat",
+            "category": "Bacaan Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q8",
+            "question": "Apa makna 'Allahu Akbar'?",
+            "options": [
+                "Allah Maha Esa",
+                "Allah Maha Besar",
+                "Allah Maha Pengasih",
+                "Allah Maha Mengetahui"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "'Allahu Akbar' artinya Allah Maha Besar",
+            "category": "Bacaan Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q9",
+            "question": "Bagaimana cara mengakhiri sholat?",
+            "options": [
+                "Dengan takbir",
+                "Dengan doa",
+                "Dengan salam",
+                "Dengan berdiri"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Sholat diakhiri dengan mengucapkan salam ke kanan dan ke kiri",
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q10",
+            "question": "Kapan takbiratul ihram dilakukan?",
+            "options": [
+                "Di awal sholat",
+                "Setelah membaca Al-Fatihah",
+                "Sebelum ruku",
+                "Sebelum sujud"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Takbiratul ihram dilakukan di awal sholat sebagai tanda memulai sholat",
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q11",
+            "question": "Berapa kali sujud dalam satu rakaat?",
+            "options": [
+                "1 kali",
+                "2 kali",
+                "3 kali",
+                "4 kali"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Dalam satu rakaat terdapat 2 kali sujud",
+            "category": "Gerakan Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q12",
+            "question": "Apa yang dimaksud dengan 'Qiblat'?",
+            "options": [
+                "Arah Masjid Nabawi",
+                "Arah Ka'bah",
+                "Arah Timur",
+                "Arah Matahari"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Qiblat adalah arah menghadap Ka'bah saat sholat",
+            "category": "Rukun Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q13",
+            "question": "Berapa kali disunnahkan berkumur saat berwudhu?",
             "options": [
                 "1 kali",
                 "2 kali",
@@ -271,10 +179,165 @@
             ],
             "correctAnswerIndex": 2,
             "explanation": "Disunnahkan berkumur sebanyak 3 kali saat berwudhu",
-            "category": "Tata Cara Wudhu"
+            "category": "Tata Cara Wudhu",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q14",
+            "question": "Apa anggota tubuh pertama yang dibasuh saat wudhu?",
+            "options": [
+                "Tangan",
+                "Wajah",
+                "Kepala",
+                "Kaki"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Sebelum membasuh wajah, kita membasuh kedua telapak tangan terlebih dahulu",
+            "category": "Tata Cara Wudhu",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q15",
+            "question": "Apa nama gerakan berdiri tegak setelah ruku?",
+            "options": [
+                "Tasyahud",
+                "I'tidal",
+                "Sujud",
+                "Qunut"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "I'tidal adalah gerakan berdiri tegak setelah bangkit dari ruku",
+            "category": "Gerakan Sholat",
+            "difficulty": "mudah"
+        },
+        {
+            "id": "q16",
+            "question": "Gerakan apa yang dilakukan setelah ruku?",
+            "options": [
+                "Sujud",
+                "I'tidal",
+                "Duduk",
+                "Salam"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Setelah ruku, kita melakukan i'tidal yaitu berdiri kembali",
+            "category": "Gerakan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q17",
+            "question": "Apa bacaan saat ruku?",
+            "options": [
+                "Subhana rabbiyal a'la",
+                "Subhana rabbiyal 'azhim",
+                "Sami'allahu liman hamidah",
+                "Allahu akbar"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Bacaan saat ruku adalah Subhana rabbiyal 'azhim wa bihamdih",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q18",
+            "question": "Apa bacaan saat sujud?",
+            "options": [
+                "Subhana rabbiyal 'azhim",
+                "Subhana rabbiyal a'la",
+                "Sami'allahu liman hamidah",
+                "Allahu akbar"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Bacaan saat sujud adalah Subhana rabbiyal a'la wa bihamdih",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q19",
+            "question": "Berapa kali minimal bacaan saat sujud?",
+            "options": [
+                "1 kali",
+                "2 kali",
+                "3 kali",
+                "7 kali"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Minimal 3 kali membaca Subhana rabbiyal a'la saat sujud",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q20",
+            "question": "Apa bacaan saat i'tidal?",
+            "options": [
+                "Subhana rabbiyal 'azhim",
+                "Sami'allahu liman hamidah",
+                "Rabbighfirli warhamni",
+                "Attahiyyatul mubarakaat"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Saat i'tidal kita membaca 'Sami'allahu liman hamidah, Rabbana wa lakal hamdu'",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q21",
+            "question": "Apa yang dibaca di antara dua sujud?",
+            "options": [
+                "Subhana rabbiyal a'la",
+                "Rabbighfirli warhamni",
+                "Sami'allahu liman hamidah",
+                "Attahiyyatul mubarakaat"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Di antara dua sujud kita membaca 'Rabbighfirli warhamni' (Ya Tuhan ampunilah dan rahmatilah aku)",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
         },
         {
             "id": "q22",
+            "question": "Apa yang dibaca setelah Al-Fatihah di rakaat pertama?",
+            "options": [
+                "Tasyahud",
+                "Surat pendek atau ayat Al-Quran",
+                "Doa Qunut",
+                "Shalawat"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Setelah Al-Fatihah di rakaat pertama dan kedua, kita membaca surat pendek atau ayat Al-Quran",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q23",
+            "question": "Kapan Doa Iftitah dibaca?",
+            "options": [
+                "Setelah takbiratul ihram",
+                "Setelah ruku",
+                "Sebelum salam",
+                "Setelah sujud"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Doa Iftitah dibaca setelah takbiratul ihram di awal sholat",
+            "category": "Bacaan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q24",
+            "question": "Kapan tasyahud akhir dibaca?",
+            "options": [
+                "Setelah rakaat pertama",
+                "Setelah rakaat kedua",
+                "Sebelum salam di akhir sholat",
+                "Sebelum ruku"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Tasyahud akhir dibaca sebelum salam di akhir sholat",
+            "category": "Rukun Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q25",
             "question": "Apa urutan yang benar setelah membasuh wajah dalam wudhu?",
             "options": [
                 "Membasuh kaki",
@@ -284,10 +347,11 @@
             ],
             "correctAnswerIndex": 2,
             "explanation": "Setelah membasuh wajah, langkah selanjutnya adalah membasuh kedua tangan hingga siku",
-            "category": "Tata Cara Wudhu"
+            "category": "Tata Cara Wudhu",
+            "difficulty": "sedang"
         },
         {
-            "id": "q23",
+            "id": "q26",
             "question": "Membasuh kaki saat wudhu dilakukan hingga...",
             "options": [
                 "Ujung jari",
@@ -297,7 +361,274 @@
             ],
             "correctAnswerIndex": 2,
             "explanation": "Membasuh kaki dalam wudhu wajib dilakukan hingga mata kaki",
-            "category": "Tata Cara Wudhu"
+            "category": "Tata Cara Wudhu",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q27",
+            "question": "Apa yang membatalkan wudhu?",
+            "options": [
+                "Makan",
+                "Tidur nyenyak",
+                "Berbicara",
+                "Berjalan"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Tidur nyenyak termasuk hal yang membatalkan wudhu",
+            "category": "Tata Cara Wudhu",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q28",
+            "question": "Sholat Jumat dilakukan pada hari apa?",
+            "options": [
+                "Senin",
+                "Kamis",
+                "Jumat",
+                "Minggu"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Sholat Jumat dilakukan pada hari Jumat sebagai pengganti sholat Dzuhur bagi laki-laki",
+            "category": "Rukun Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q29",
+            "question": "Pada posisi apa tasyahud dibaca?",
+            "options": [
+                "Berdiri",
+                "Ruku",
+                "Sujud",
+                "Duduk"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Tasyahud dibaca dalam posisi duduk",
+            "category": "Gerakan Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q30",
+            "question": "Apa nama sholat sunnah sebelum sholat fardhu?",
+            "options": [
+                "Sholat Rawatib Qabliyah",
+                "Sholat Rawatib Ba'diyah",
+                "Sholat Tahajud",
+                "Sholat Dhuha"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Sholat Rawatib Qabliyah adalah sholat sunnah yang dilakukan sebelum sholat fardhu",
+            "category": "Rukun Sholat",
+            "difficulty": "sedang"
+        },
+        {
+            "id": "q31",
+            "question": "Apa hukum membaca shalawat dalam tasyahud akhir?",
+            "options": [
+                "Wajib",
+                "Sunnah",
+                "Mubah",
+                "Makruh"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Membaca shalawat kepada Nabi SAW dalam tasyahud akhir hukumnya wajib menurut sebagian ulama",
+            "category": "Bacaan Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q32",
+            "question": "Berapa jumlah rukun sholat?",
+            "options": [
+                "10 rukun",
+                "12 rukun",
+                "13 rukun",
+                "14 rukun"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Rukun sholat ada 13, meliputi niat, takbiratul ihram, berdiri bagi yang mampu, membaca Al-Fatihah, ruku, i'tidal, sujud, duduk antara dua sujud, tasyahud akhir, shalawat, salam pertama, tertib, dan tuma'ninah",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q33",
+            "question": "Apa perbedaan antara rukun dan syarat sholat?",
+            "options": [
+                "Rukun dilakukan di luar sholat, syarat di dalam sholat",
+                "Rukun dilakukan di dalam sholat, syarat sebelum sholat",
+                "Tidak ada perbedaan",
+                "Rukun bisa ditinggalkan, syarat tidak"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Rukun adalah hal-hal yang harus dilakukan di dalam sholat, sedangkan syarat adalah hal-hal yang harus dipenuhi sebelum sholat",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q34",
+            "question": "Kapan sujud sahwi dilakukan?",
+            "options": [
+                "Sebelum salam",
+                "Setelah salam",
+                "Sebelum atau setelah salam",
+                "Sebelum tasyahud"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Sujud sahwi bisa dilakukan sebelum salam atau setelah salam tergantung jenis kesalahan dalam sholat",
+            "category": "Gerakan Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q35",
+            "question": "Apa yang dimaksud dengan thuma'ninah?",
+            "options": [
+                "Membaca dengan tartil",
+                "Diam sejenak dalam setiap gerakan",
+                "Berdzikir setelah sholat",
+                "Menghadap kiblat"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Thuma'ninah adalah diam sejenak dalam setiap gerakan sholat hingga tulang kembali ke posisi semula",
+            "category": "Gerakan Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q36",
+            "question": "Apa hukum sholat berjamaah bagi laki-laki?",
+            "options": [
+                "Wajib 'ain",
+                "Sunnah muakkadah",
+                "Fardhu kifayah",
+                "Mubah"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Sholat berjamaah bagi laki-laki hukumnya sunnah muakkadah (sunnah yang sangat dianjurkan)",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q37",
+            "question": "Berapa pahala sholat berjamaah dibanding sholat sendiri?",
+            "options": [
+                "7 derajat",
+                "17 derajat",
+                "25 derajat",
+                "27 derajat"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Pahala sholat berjamaah adalah 27 derajat lebih tinggi dibanding sholat sendiri",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q38",
+            "question": "Apa yang dilakukan jika lupa dalam sholat?",
+            "options": [
+                "Mengulang sholat dari awal",
+                "Melakukan sujud sahwi",
+                "Melanjutkan sholat tanpa perbaikan",
+                "Bertanya kepada makmum"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Jika lupa dalam sholat, seperti menambah atau mengurangi rakaat, maka dilakukan sujud sahwi",
+            "category": "Gerakan Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q39",
+            "question": "Apa bacaan qunut dibaca pada sholat apa?",
+            "options": [
+                "Sholat Dzuhur",
+                "Sholat Subuh",
+                "Sholat Maghrib",
+                "Sholat Isya"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Doa qunut dibaca pada sholat Subuh setelah i'tidal di rakaat kedua (menurut madzhab Syafi'i)",
+            "category": "Bacaan Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q40",
+            "question": "Berapa jarak minimal antara imam dan makmum dalam sholat berjamaah?",
+            "options": [
+                "Tidak ada jarak minimal",
+                "1 shaf",
+                "3 langkah",
+                "7 langkah"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Tidak ada ketentuan jarak minimal antara imam dan makmum, yang penting makmum bisa mengikuti gerakan imam",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q41",
+            "question": "Apa arti 'As-salamu 'alaikum wa rahmatullah'?",
+            "options": [
+                "Allah Maha Besar",
+                "Keselamatan dan rahmat Allah atasmu",
+                "Segala puji bagi Allah",
+                "Aku bersaksi"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "'As-salamu 'alaikum wa rahmatullah' artinya keselamatan dan rahmat Allah semoga tercurah atasmu",
+            "category": "Bacaan Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q42",
+            "question": "Apa yang dimaksud dengan masbuk?",
+            "options": [
+                "Imam dalam sholat",
+                "Makmum yang terlambat",
+                "Orang yang sholat sendiri",
+                "Orang yang mengumandangkan adzan"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Masbuk adalah makmum yang terlambat dan tidak sempat mengikuti sholat dari awal bersama imam",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q43",
+            "question": "Kapan waktu sholat Dhuha dimulai?",
+            "options": [
+                "Setelah terbit matahari sampai sebelum Dzuhur",
+                "Setelah Subuh sampai terbit matahari",
+                "Tengah malam",
+                "Setelah Maghrib"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Waktu sholat Dhuha dimulai setelah matahari terbit setinggi tombak (sekitar 15-20 menit setelah terbit) sampai sebelum waktu Dzuhur",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q44",
+            "question": "Apa yang membedakan sholat Witir dengan sholat lainnya?",
+            "options": [
+                "Jumlah rakaatnya ganjil",
+                "Waktunya malam hari",
+                "Bacaannya berbeda",
+                "Gerakannya berbeda"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Sholat Witir memiliki keunikan jumlah rakaat yang ganjil (1, 3, 5, 7, 9, atau 11 rakaat)",
+            "category": "Rukun Sholat",
+            "difficulty": "susah"
+        },
+        {
+            "id": "q45",
+            "question": "Apa hukum tayamum ketika ada air?",
+            "options": [
+                "Boleh",
+                "Tidak boleh",
+                "Makruh",
+                "Sunnah"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Tayamum tidak boleh dilakukan jika ada air yang cukup untuk berwudhu, tayamum hanya boleh ketika tidak ada air atau tidak mampu menggunakan air",
+            "category": "Tata Cara Wudhu",
+            "difficulty": "susah"
         }
     ]
 }

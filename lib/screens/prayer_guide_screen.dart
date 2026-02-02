@@ -201,7 +201,6 @@ class _PrayerGuideScreenState extends State<PrayerGuideScreen> {
   }
 
   void _showCompletionDialog(BuildContext context, PrayerProvider provider) {
-    // Save to learning history
     final historyProvider = Provider.of<LearningHistoryProvider>(context, listen: false);
     historyProvider.addHistory(
       prayerType: provider.currentPrayerName ?? 'Sholat',

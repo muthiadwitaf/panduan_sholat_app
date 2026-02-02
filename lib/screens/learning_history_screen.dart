@@ -77,12 +77,10 @@ class _LearningHistoryScreenState extends State<LearningHistoryScreen> {
           return SingleChildScrollView(
             child: Column(
               children: [
-                // Statistics Cards
                 _buildStatisticsSection(provider),
                 
                 const SizedBox(height: 16),
                 
-                // Timeline
                 _buildTimelineSection(provider),
               ],
             ),
@@ -257,7 +255,6 @@ class _LearningHistoryScreenState extends State<LearningHistoryScreen> {
               if (provider.allHistory.isNotEmpty)
                 TextButton(
                   onPressed: () {
-                    // Show filter options
                     _showFilterDialog(provider);
                   },
                   child: Row(
@@ -396,52 +393,54 @@ class _LearningHistoryScreenState extends State<LearningHistoryScreen> {
   }
 
   void _showFilterDialog(LearningHistoryProvider provider) {
+    String? selectedValue = provider.selectedPrayerType;
+    
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Filter Riwayat'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            ListTile(
-              title: const Text('Semua Sholat'),
-              leading: Radio<String?>(
+      builder: (context) => StatefulBuilder(
+        builder: (context, setState) => AlertDialog(
+          title: const Text('Filter Riwayat'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              RadioListTile<String?>(
+                title: const Text('Semua Sholat'),
                 value: null,
-                groupValue: provider.selectedPrayerType,
+                groupValue: selectedValue,
                 onChanged: (value) {
+                  setState(() => selectedValue = value);
                   provider.filterByPrayerType(value);
                   Navigator.pop(context);
                 },
               ),
-            ),
-            ...['Subuh', 'Dzuhur', 'Ashar', 'Maghrib', 'Isya'].map((prayer) {
-              return ListTile(
-                title: Text(prayer),
-                leading: Radio<String?>(
+              ...['Subuh', 'Dzuhur', 'Ashar', 'Maghrib', 'Isya'].map((prayer) {
+                return RadioListTile<String?>(
+                  title: Text(prayer),
                   value: prayer,
-                  groupValue: provider.selectedPrayerType,
+                  groupValue: selectedValue,
                   onChanged: (value) {
+                    setState(() => selectedValue = value);
                     provider.filterByPrayerType(value);
                     Navigator.pop(context);
                   },
-                ),
-              );
-            }),
+                );
+              }),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                provider.clearFilters();
+                Navigator.pop(context);
+              },
+              child: const Text('Reset'),
+            ),
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Tutup'),
+            ),
           ],
         ),
-        actions: [
-          TextButton(
-            onPressed: () {
-              provider.clearFilters();
-              Navigator.pop(context);
-            },
-            child: const Text('Reset'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Tutup'),
-          ),
-        ],
       ),
     );
   }

@@ -11,12 +11,14 @@ class QuizProvider with ChangeNotifier {
   bool _isLoading = false;
   String? _error;
   QuizResult? _lastResult;
+  String? _selectedDifficulty;
 
   List<QuizQuestion> get currentQuestions => _currentQuestions;
   int get currentQuestionIndex => _currentQuestionIndex;
   bool get isLoading => _isLoading;
   String? get error => _error;
   QuizResult? get lastResult => _lastResult;
+  String? get selectedDifficulty => _selectedDifficulty;
   
   QuizQuestion? get currentQuestion => _currentQuestions.isNotEmpty 
       ? _currentQuestions[_currentQuestionIndex] 
@@ -27,6 +29,15 @@ class QuizProvider with ChangeNotifier {
   bool get hasNext => _currentQuestionIndex < _currentQuestions.length - 1;
   bool get hasPrevious => _currentQuestionIndex > 0;
   bool get isQuizComplete => _userAnswers.length == _currentQuestions.length;
+  
+  // Get question counts per difficulty
+  Map<String, int> get difficultyCount {
+    Map<String, int> counts = {'mudah': 0, 'sedang': 0, 'susah': 0};
+    for (var q in _allQuestions) {
+      counts[q.difficulty] = (counts[q.difficulty] ?? 0) + 1;
+    }
+    return counts;
+  }
 
   Future<void> loadQuestions() async {
     _isLoading = true;
@@ -51,9 +62,18 @@ class QuizProvider with ChangeNotifier {
     }
   }
 
-  void startQuiz({int questionCount = 10}) {
-    _currentQuestions = List.from(_allQuestions)..shuffle();
-    _currentQuestions = _currentQuestions.take(questionCount).toList();
+  void startQuiz({int questionCount = 10, String? difficulty}) {
+    _selectedDifficulty = difficulty;
+    
+    List<QuizQuestion> filteredQuestions;
+    if (difficulty != null) {
+      filteredQuestions = _allQuestions.where((q) => q.difficulty == difficulty).toList();
+    } else {
+      filteredQuestions = List.from(_allQuestions);
+    }
+    
+    filteredQuestions.shuffle();
+    _currentQuestions = filteredQuestions.take(questionCount).toList();
     _currentQuestionIndex = 0;
     _userAnswers.clear();
     _lastResult = null;
@@ -132,6 +152,7 @@ class QuizProvider with ChangeNotifier {
     _currentQuestionIndex = 0;
     _userAnswers.clear();
     _lastResult = null;
+    _selectedDifficulty = null;
     notifyListeners();
   }
 }

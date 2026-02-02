@@ -5,6 +5,7 @@ class QuizQuestion {
   final int correctAnswerIndex;
   final String explanation;
   final String category;
+  final String difficulty; // mudah, sedang, susah
 
   QuizQuestion({
     required this.id,
@@ -13,6 +14,7 @@ class QuizQuestion {
     required this.correctAnswerIndex,
     required this.explanation,
     required this.category,
+    required this.difficulty,
   });
 
   factory QuizQuestion.fromJson(Map<String, dynamic> json) {
@@ -23,6 +25,7 @@ class QuizQuestion {
       correctAnswerIndex: json['correctAnswerIndex'] as int,
       explanation: json['explanation'] as String,
       category: json['category'] as String,
+      difficulty: json['difficulty'] as String? ?? 'sedang',
     );  
   }
 
@@ -34,6 +37,7 @@ class QuizQuestion {
       'correctAnswerIndex': correctAnswerIndex,
       'explanation': explanation,
       'category': category,
+      'difficulty': difficulty,
     };
   }
 }

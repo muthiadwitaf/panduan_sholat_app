@@ -58,7 +58,6 @@ class SholatItem {
       throw Exception('Wajib prayer ($name) must have Arabic niat defined');
     }
 
-    // Allowed category values validation
     final category = json['category'] as String? ?? '';
     const allowedCategories = {
       'wajib',

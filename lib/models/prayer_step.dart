@@ -51,7 +51,7 @@ class PrayerStep {
       latinText: latinText ?? this.latinText,
       translation: translation ?? this.translation,
       imagePath: imagePath,
-      audioPath: audioPath ?? this.audioPath,  // Preserve audioPath!
+      audioPath: audioPath ?? this.audioPath,
       niat: niat ?? this.niat,
       rakaat: rakaat ?? this.rakaat,
     );

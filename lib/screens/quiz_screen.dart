@@ -76,7 +76,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Widget _buildStartScreen(QuizProvider provider) {
     return Center(
-      child: Padding(
+      child: SingleChildScrollView(
         padding: const EdgeInsets.all(24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -106,25 +106,56 @@ class _QuizScreenState extends State<QuizScreen> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 32),
-            ElevatedButton(
+            Text(
+              'Pilih Tingkat Kesulitan',
+              style: AppTextStyles.headingSmall,
+            ),
+            const SizedBox(height: 16),
+            _DifficultyCard(
+              title: 'Mudah',
+              subtitle: 'Pertanyaan dasar tentang sholat',
+              icon: Icons.sentiment_satisfied,
+              color: AppColors.success,
+              questionCount: provider.difficultyCount['mudah'] ?? 0,
+              onTap: () {
+                provider.startQuiz(questionCount: 10, difficulty: 'mudah');
+                setState(() => _showingExplanation = false);
+              },
+            ),
+            const SizedBox(height: 12),
+            _DifficultyCard(
+              title: 'Sedang',
+              subtitle: 'Pertanyaan lebih detail',
+              icon: Icons.sentiment_neutral,
+              color: AppColors.warning,
+              questionCount: provider.difficultyCount['sedang'] ?? 0,
+              onTap: () {
+                provider.startQuiz(questionCount: 10, difficulty: 'sedang');
+                setState(() => _showingExplanation = false);
+              },
+            ),
+            const SizedBox(height: 12),
+            _DifficultyCard(
+              title: 'Susah',
+              subtitle: 'Pertanyaan mendalam & aplikatif',
+              icon: Icons.sentiment_very_dissatisfied,
+              color: AppColors.error,
+              questionCount: provider.difficultyCount['susah'] ?? 0,
+              onTap: () {
+                provider.startQuiz(questionCount: 10, difficulty: 'susah');
+                setState(() => _showingExplanation = false);
+              },
+            ),
+            const SizedBox(height: 24),
+            OutlinedButton.icon(
               onPressed: () {
                 provider.startQuiz(questionCount: 10);
                 setState(() => _showingExplanation = false);
               },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.primary,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 48,
-                  vertical: 16,
-                ),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-              ),
-              child: const Text(
-                'Mulai Kuis (10 Soal)',
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              icon: const Icon(Icons.shuffle),
+              label: const Text('Semua Tingkat (Acak)'),
+              style: OutlinedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
               ),
             ),
           ],
@@ -559,6 +590,98 @@ class _StatItem extends StatelessWidget {
           style: AppTextStyles.caption,
         ),
       ],
+    );
+  }
+}
+
+class _DifficultyCard extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final IconData icon;
+  final Color color;
+  final int questionCount;
+  final VoidCallback onTap;
+
+  const _DifficultyCard({
+    required this.title,
+    required this.subtitle,
+    required this.icon,
+    required this.color,
+    required this.questionCount,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: questionCount > 0 ? onTap : null,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: questionCount > 0 ? Colors.white : Colors.grey.shade100,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: questionCount > 0 ? color.withValues(alpha: 0.3) : Colors.grey.shade300,
+            width: 2,
+          ),
+          boxShadow: questionCount > 0 ? [
+            BoxShadow(
+              color: color.withValues(alpha: 0.1),
+              blurRadius: 10,
+              offset: const Offset(0, 4),
+            ),
+          ] : null,
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(icon, color: color, size: 28),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: AppTextStyles.headingSmall.copyWith(
+                      color: questionCount > 0 ? AppColors.textPrimary : Colors.grey,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    subtitle,
+                    style: AppTextStyles.bodySmall.copyWith(
+                      color: questionCount > 0 ? AppColors.textSecondary : Colors.grey,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                '$questionCount soal',
+                style: AppTextStyles.caption.copyWith(
+                  color: color,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

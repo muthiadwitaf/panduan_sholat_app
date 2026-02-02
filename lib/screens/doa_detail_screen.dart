@@ -48,7 +48,6 @@ class DoaDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             
-            // Audio Player
             if (doa.audioPath != null && doa.audioPath!.isNotEmpty)
               Column(
                 children: [
@@ -60,7 +59,6 @@ class DoaDetailScreen extends StatelessWidget {
                 ],
               ),
             
-            // Arabic Text
             Container(
               padding: const EdgeInsets.all(24),
               decoration: BoxDecoration(
@@ -84,7 +82,6 @@ class DoaDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             
-            // Transliteration
             Text('LATIN', style: AppTextStyles.label),
             const SizedBox(height: 8),
             Container(

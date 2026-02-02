@@ -79,6 +79,8 @@ class LearningHistoryProvider with ChangeNotifier {
       _statistics = await _service.getStatistics();
       notifyListeners();
     } catch (e) {
+      // Statistik gagal dimuat, abaikan dan gunakan nilai default
+      debugPrint('Failed to load statistics: $e');
     }
   }
   
