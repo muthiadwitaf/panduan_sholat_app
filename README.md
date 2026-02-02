@@ -3,10 +3,9 @@
 E-Sholat Guide adalah aplikasi e-learning panduan sholat dan doa harian berbasis Flutter yang dirancang untuk membantu pengguna mempelajari tata cara ibadah secara mandiri, terstruktur, dan mudah diakses melalui berbagai platform.
 Aplikasi ini dikembangkan sebagai bagian dari penelitian dengan pendekatan Agile Development Method, serta ditujukan sebagai media pembelajaran keagamaan berbasis digital.
 
-<<<<<<< HEAD
 ## Fitur Utama
 
-### 📿 Panduan Sholat Lengkap
+Panduan Sholat Lengkap
 =======
 
 Tujuan Aplikasi
@@ -18,7 +17,6 @@ Tujuan Aplikasi
 
 Fitur Utama
 Panduan Sholat Lengkap
->>>>>>> 5dab73c26aab01d4775b9a8f8f7de69194d4b265
 - 19 langkah sholat dari niat hingga salam (termasuk Sholat Jenazah)
 - Bacaan Arab dengan font Amiri yang indah
 - Transliterasi Latin untuk memudahkan
@@ -26,20 +24,20 @@ Panduan Sholat Lengkap
 - Ilustrasi gerakan sholat
 - Label Wajib/Sunnah untuk setiap bacaan
 
-### 🕌 Daftar Sholat & Niat
+Daftar Sholat & Niat
 - Sholat Wajib (Subuh, Dzuhur, Ashar, Maghrib, Isya)
 - Sholat Sunnah (Tahajud, Dhuha, Rawatib, dll)
 - Niat lengkap untuk setiap jenis sholat
 - Detail bacaan dan tata cara
 
-### 🤲 Doa Harian
+Doa Harian
 - 75+ doa sehari-hari (Total 78 doa)
 - Kategori: Doa Pagi & Petang, Doa Sehari-hari, Doa Ibadah, Doa Istimewa, dll.
 - Pencarian doa
 - Filter berdasarkan kategori
 - Fitur favorit untuk menyimpan doa favorit
 
-### 📝 Kuis Interaktif
+Kuis Interaktif
 - 45 soal tentang tata cara sholat dan wudhu
 - **3 tingkat kesulitan**: Mudah, Sedang, Susah
 - Kategori: Rukun Sholat, Bacaan Sholat, Gerakan Sholat, Tata Cara Wudhu
@@ -47,18 +45,18 @@ Panduan Sholat Lengkap
 - Penjelasan untuk setiap jawaban
 - Skor dan rekomendasi pembelajaran
 
-### 💧 Tata Cara Wudhu
+Tata Cara Wudhu
 - 10 langkah wudhu dari niat hingga doa sesudah wudhu
 - Bacaan Arab, Latin, dan Terjemahan
 - Panduan urutan yang benar
 
-### 📊 Riwayat Belajar
+Riwayat Belajar
 - Tracking progress belajar sholat dan doa
 - Statistik waktu belajar
 - Ringkasan materi yang sudah dipelajari
 - Rekomendasi pembelajaran selanjutnya
 
-### 🔊 Audio Bacaan
+Audio Bacaan
 - Audio bacaan sholat
 - Audio doa harian
 - Audio bacaan wudhu
@@ -264,9 +262,10 @@ This application was developed as a final exam for the **Sistem Informasi Dakwah
 
 | Role | Name |
 |------|------|
-| **Idea** | Dwi Agung Santoso |
+| **Team Leader** | Dwi Agung Santoso |
 | **Developer** | Muthi'ah Dwita Fathinah |
 | **Analysts** | Taufan Dwiyogo Setiawan and Triana Asih Wulandari |
+| **Reviewer** | All Member |
 
 ---
 
